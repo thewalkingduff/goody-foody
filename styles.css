@@ -104,6 +104,10 @@ img {
     padding-top: 1px;
 }
 
+.opacity{
+    opacity: 10%;
+}
+
 /* Footer */
 
 #rainbow {
@@ -115,6 +119,8 @@ img {
     margin-top: 0;
     padding: 0;
 }
+
+
 
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/

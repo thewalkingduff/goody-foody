@@ -29,6 +29,8 @@
    
     <section class="container">
 
+        <!-- Sound Files -->
+
         <audio id="goodFoody">
             <source src="sounds/good-foody.m4a" autoplay="false">
         </audio>
@@ -36,125 +38,127 @@
         <audio id="badFoody">
             <source src="sounds/bad-foody.m4a" autoplay="false">
         </audio>
+
+        <!-- Foody -->
     
-        <div class="zone blue good apple" onclick="goodSound()">
+        <div id="apple" class="zone blue good apple">
             <img src="/public/images/good-foody/apple.png">
             <p>Apple</p>
         </div>
 
-        <div class="zone green good milk" onclick="goodSound()">
+        <div id="milk" class="zone green good">
             <img src="/public/images/good-foody/milk.png">
             <p>milk</p>
         </div>
 
-        <div class="zone bad purple donut" onclick="badSound();">
+        <div class="zone bad purple donut">
             <img src="/public/images/bad-foody/donut.png">
             <p>donut</p>
         </div>
 
-        <div class="zone good yellow watermelon" onclick="goodSound()">
+        <div class="zone good yellow watermelon">
             <img src="/public/images/good-foody/watermelon.png">
             <p>Watermelon</p>
         </div>
 
-        <div class="zone good red strawberry" onclick="goodSound()">
+        <div class="zone good red strawberry">
 
         <img src="/public/images/good-foody/strawberry.png">
-            <p>strawberry</p>
+            <div>strawberry</div>
 
         </div>
 
-        <div class="zone bad brown pie" onclick="badSound()">
+        <div class="zone bad brown pie">
         <img src="/public/images/bad-foody/pie.png" alt="">
             <p>pie</p>
         </div>
 
-        <div class="zone good green cheese" onclick="goodSound()">
+        <div class="zone good green cheese">
         <img src="/public/images/good-foody/cheese.png">
             <p>cheese</p>
         </div>
 
-        <div class="zone bad purple pizza" onclick="badSound();">
+        <div class="zone bad purple pizza">
         <img src="/public/images/bad-foody/pizza.png" alt="">
             <p>pizza</p>
         </div>
 
-        <div class="zone good blue carrot" onclick="goodSound()">
+        <div class="zone good blue carrot">
         <img src="/public/images/good-foody/carrot.png">
             <p>carrot</p>
         </div>
 
-        <div class="zone bad yellow cheeseburger" onclick="badSound();">
+        <div class="zone bad yellow cheeseburger">
         <img src="/public/images/bad-foody/cheeseburger.png">
             <p>cheeseburger</p>
         </div>
 
-        <div class="zone good red mushroom" onclick="goodSound()">
+        <div class="zone good red mushroom">
         <img src="/public/images/good-foody/mushroom.png">
             <p>mushroom</p>
         </div>
 
-        <div class="zone bad brown cake" onclick="badSound();">
+        <div class="zone bad brown cake">
             <img src="/public/images/bad-foody/cake.png">
             <p>cake</p>
         </div>
 
-        <div class="zone good green egg" onclick="goodSound()">
+        <div class="zone good green egg">
             <img src="/public/images/good-foody/egg.png">
             <p>egg</p>
         </div>
 
-        <div class="zone good purple turkey" onclick="goodSound()">
+        <div class="zone good purple turkey">
             <img src="/public/images/good-foody/turkey.png">
             <p>turkey</p>
         </div>
 
-        <div class="zone bad red juicebox" onclick="badSound();">
+        <div class="zone bad red juicebox">
             <img src="/public/images/bad-foody/juicebox.png">
             <p>juice box</p>
         </div>
 
-        <div class="zone bad brown water" onclick="goodSound()">
+        <div class="zone bad brown water">
             <img src="/public/images/good-foody/water.png">
             <p>water</p>
         </div>
 
-        <div class="zone good green cherry" onclick="goodSound()">
+        <div class="zone good green cherry">
             <img src="/public/images/good-foody/cherry.png">
             <p>cherry</p>
         </div>
 
-        <div class="zone bad blue popsicle" onclick="badSound();">
+        <div class="zone bad blue popsicle">
             <img src="/public/images/bad-foody/popsicle.png">
             <p>popsicle</p>
         </div>
 
-        <div class="zone good purple orange" onclick="goodSound()">
+        <div class="zone good purple orange">
             <img src="/public/images/good-foody/orange.png">
             <p>orange</p>
         </div>
 
-        <div class="zone good yellow sausage" onclick="goodSound()">
+        <div class="zone good yellow sausage">
             <img src="/public/images/good-foody/sausage.png">
             <p>sausage</p>
         </div>
 
-        <div class="zone good red chicken" onclick="goodSound()">
+        <div class="zone good red chicken">
             <img src="/public/images/good-foody/chicken.png">
             <p>chicken</p>
         </div>
 
-        <div class="zone bad blue cookie" onclick="badSound();">
+        <div class="zone bad blue cookie">
             <img src="/public/images/bad-foody/cookie.png">
             <p>cookie</p>
         </div>
 
-        <div class="zone green good pear" onclick="goodSound()">
+        <div class="zone green good pear">
             <img src="/public/images/good-foody/pear.png">
             <p>pear</p>
         </div>
 
-        <div class="zone bad purple hot-dog" onclick="badSound();">
+        <div class="zone bad purple hot-dog">
             <img src="/public/images/bad-foody/hot-dog.png">
             <p>hot dog</p>
         </div>
@@ -184,15 +188,7 @@
 
 </body>
 
-<script>
-    function goodSound() {
-    let sound = document.getElementById("goodFoody");
-    sound.play();
-}
-function badSound() {
-    let sound = document.getElementById("badFoody");
-    sound.play();
-}
-</script>
+
+<script src="app.js"></script>
 
 </html>
