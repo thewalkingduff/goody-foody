@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
-      "outDir": "./dist",
-      "rootDir": "./src",
+      "outDir": "./src",
+      "rootDir": "./dist",
       "allowJs": true,
       "target": "es6"
     }
